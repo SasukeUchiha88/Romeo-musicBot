@@ -1,81 +1,128 @@
-{
-    "name": "Romeo",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "repository": "https://github.com/RRomeo-RJ/Romeo-musicBot",
-    "logo": "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
-    "keywords": ["pyrogram", "Romeomusicbot", "pytgcall"],
-    "stack": "container",
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "Put Your Bot token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
-        "value": "",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters",
-        "value": "",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "",
-        "required": false
-      },
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
-        "value": "",
-        "required": false
-      },
-      "SPOTIFY_CLIENT_ID": {
-        "description": "Spotify Client Id",
-        "value": "",
-        "required": false
-      },
-      "SPOTIFY_CLIENT_SECRET": {
-        "description": "Spotify client secret",
-        "value": "",
-        "required": false
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
-        "required": true
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights !",
-        "value": "",
-        "required": true
-      },
-      "SUPPORT_GROUP": {
-        "description": "Fill the link of your group..",
-        "value": "https://t.me/RomeoBot_OP",
-        "required": false
-      },
-      "SUPPORT_CHANNEL": {
-        "description": "Fill the link of channel.",
-        "value": "https://t.me/Romeo_OP",
-        "required": false
-      }
-
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261563412480420%22%3A%22ve7f4d9Z%22%2C%2261551347170005%22%3A%22unJmzXlV%22%2C%2261563970641727%22%3A%22CrQQ6vyU%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.207Z",
+        "lastAccessed": "2024-08-07T02:51:35.207Z"
+    },
+    {
+        "key": "datr",
+        "value": "T9ypZpwAMvGCOM-2mG9C6F3m",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.207Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "sb",
+        "value": "T9ypZgdGPgEjyt9UXcvYfZNl",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "locale",
+        "value": "bn_IN",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B653x375x1.9240320920944214",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61563970641727",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "xs",
+        "value": "29%3AKRHH8-thQwdGHg%3A2%3A1722919803%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "fr",
+        "value": "02vryfsLktxK7rX4m.AWXz_rDtUw6IKaCrjCPsIu8__CU.BmqdxP..AAA.0.0.Bmsat8.AWWHm5VpElY",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "m_page_voice",
+        "value": "61563970641727",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "wd",
+        "value": "375x653",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101425325%3BT%3A28716649",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2584%3Btimestamp%3A1722998987",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-08-07T02:51:35.208Z",
+        "lastAccessed": "2024-08-07T02:51:35.208Z"
     }
-}
+]
